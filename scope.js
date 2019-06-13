@@ -46,7 +46,7 @@ function sendDataToClient() {
 
   var userObject = {
     handle: 'neo',
-    authenticated: false
+    authenticated: true
   }
 
   function authenticateUser(obj, username) {
